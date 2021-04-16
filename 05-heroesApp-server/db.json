@@ -168,34 +168,22 @@
       "characters": "Norrin Radd"
     },
     {
-      "id": "cXv35hn"
-    },
-    {
-      "superhero": "Andres Masset",
-      "publisher": "DC",
-      "alter_ego": "Andres Masset",
-      "first_appearance": "En su casa",
-      "characters": "Andres Masset",
-      "id": "Gg9bArl"
-    },
-    {
+      "id": "don_antonio",
       "superhero": "Don Antonio",
       "alter_ego": "Antonio Martinez Ares",
       "characters": "Antonio Martinez Ares",
-      "first_appearance": "1980",
+      "first_appearance": "1984",
       "publisher": "DC Comics",
-      "alt_img": "https://acordesweb.com/img/antonio-martinez-ares-7d38489850429064bde6e87e5174a6c8.jpg",
-      "id": "atsBEkg"
+      "alt_img": "https://acordesweb.com/img/antonio-martinez-ares-7d38489850429064bde6e87e5174a6c8.jpg"
     },
     {
-      "superhero": "asadsa",
-      "alter_ego": "dadsa",
-      "characters": "",
-      "first_appearance": "assad",
-      "publisher": "DC Comics",
-      "alt_img": "asa",
-      "publishers": "Marvel",
-      "id": "3uqU5K9"
+      "superhero": "SoftMan",
+      "alter_ego": "Andres Masset",
+      "characters": "Andres Masset",
+      "first_appearance": "Softman Vol I",
+      "publisher": "Marvel",
+      "alt_img": "https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/software-reverse-engineering-t.jpg",
+      "id": "YB4QRs2"
     }
   ]
 }

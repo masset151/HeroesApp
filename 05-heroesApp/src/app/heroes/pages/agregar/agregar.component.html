@@ -48,7 +48,7 @@
                 <mat-form-field > 
                     <mat-label>Creador </mat-label>
                 
-                    <mat-select  [(ngModel)] ="heroe.publishers">
+                    <mat-select  [(ngModel)] ="heroe.publisher">
                         <mat-option *ngFor="let editoriales of publishers" [value]='editoriales.id'>{{editoriales.desc}}</mat-option>
                         
                     </mat-select>
