@@ -5,6 +5,7 @@ import { HeroesServiceService } from 'src/app/services/heroes-service.service';
 import { Publisher } from '../../interfaces/heroes.interface';
 import { HeroesService } from '../../services/heroes.service';
 import {switchMap} from 'rxjs/operators'
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-agregar',
@@ -44,7 +45,7 @@ export class AgregarComponent implements OnInit {
 
   };
 
-  constructor(private heroesService:HeroesService,private activateRoute:ActivatedRoute,private router:Router) { }
+  constructor(private heroesService:HeroesService,private activateRoute:ActivatedRoute,private router:Router,private snackBar:MatSnackBar) { }
 
   guardar(){
     if(this.heroe.superhero.trim().length==0){
@@ -77,6 +78,12 @@ export class AgregarComponent implements OnInit {
     
     this.activateRoute.params.pipe(switchMap(({id})=> this.heroesService.getHeroePorId(id)))
     .subscribe(heroe => this.heroe = heroe)
+  }
+
+  mostrarSnackBarr(mensaje:string){
+    this.snackBar.open(mensaje,'Correcto',{
+      duration:2500,
+    })
   }
 
 }
